@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night on the Road: Horror Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Night on the Road</h1>
+    <p class="subtitle">Make the right choices to survive...</p>
+
+    <!-- Вопрос 1 -->
+    <div class="question">
+        <p>1. You are driving at night. Suddenly, your car engine stops in the middle of a dark forest. What do you do?</p>
+        <label><input type="radio" name="q1" value="A"> A) Get out and walk into the forest to find help.</label>
+        <label><input type="radio" name="q1" value="B"> B) Lock all the doors and wait inside.</label>
+        <label><input type="radio" name="q1" value="C"> C) Start screaming for help.</label>
+    </div>
+
+    <!-- Вопрос 2 -->
+    <div class="question">
+        <p>2. It's getting cold, and your phone has no signal. You see a creepy abandoned house nearby. What now?</p>
+        <label><input type="radio" name="q2" value="A"> A) Run to the house and knock loudly on the front door.</label>
+        <label><input type="radio" name="q2" value="B"> B) Go inside carefully, holding your car keys between your fingers as a weapon.</label>
+        <label><input type="radio" name="q2" value="C"> C) Sleep in the car without checking the surroundings.</label>
+    </div>
+
+    <!-- Вопрос 3 -->
+    <div class="question">
+        <p>3. You enter the house. The door suddenly slams shut behind you! A phone starts ringing in the dark. What do you do?</p>
+        <label><input type="radio" name="q3" value="A"> A) Answer the phone.</label>
+        <label><input type="radio" name="q3" value="B"> B) Follow the sound to find the phone.</label>
+        <label><input type="radio" name="q3" value="C"> C) Ignore it and look for a back door to escape.</label>
+    </div>
+
+    <!-- Вопрос 4 -->
+    <div class="question">
+        <p>4. Suddenly, you hear a strange scratching noise coming from the basement. What is your move?</p>
+        <label><input type="radio" name="q4" value="A"> A) Shout: "Who is there?!"</label>
+        <label><input type="radio" name="q4" value="B"> B) Block the basement door with a heavy sofa and walk away.</label>
+        <label><input type="radio" name="q4" value="C"> C) Go down to check if it's just a cat.</label>
+    </div>
+
+    <!-- Вопрос 5 -->
+    <div class="question">
+        <p>5. You see a huge shadow on the wall, slowly moving toward you. What do you do?</p>
+        <label><input type="radio" name="q5" value="A"> A) Yell at the shadow to go away.</label>
+        <label><input type="radio" name="q5" value="B"> B) Retreat into the nearest room with a door and barricade it.</label>
+        <label><input type="radio" name="q5" value="C"> C) Try to run past it very quickly.</label>
+    </div>
+
+    <!-- Вопрос 6 -->
+    <div class="question">
+        <p>6. A huge zombie breaks through the window! Where do you run?</p>
+        <label><input type="radio" name="q6" value="A"> A) Hide under the bed.</label>
+        <label><input type="radio" name="q6" value="B"> B) Run upstairs to the balcony.</label>
+        <label><input type="radio" name="q6" value="C"> C) Try to fight it with your bare hands.</label>
+    </div>
+
+    <!-- Вопрос 7 -->
+    <div class="question">
+        <p>7. You jump from the balcony and hurt your leg. You see an old bicycle near the house.</p>
+        <label><input type="radio" name="q7" value="A"> A) Get on the bike and ride away as fast as you can.</label>
+        <label><input type="radio" name="q7" value="B"> B) Play dead on the grass.</label>
+        <label><input type="radio" name="q7" value="C"> C) Crawl back into the house to hide.</label>
+    </div>
+
+    <!-- Вопрос 8 -->
+    <div class="question">
+        <p>8. You reach your car. The zombie is very close! The engine starts, but then it stalls again.</p>
+        <label><input type="radio" name="q8" value="A"> A) Panic, get out of the car, and run.</label>
+        <label><input type="radio" name="q8" value="B"> B) Stay calm and try to start it again quickly.</label>
+        <label><input type="radio" name="q8" value="C"> C) Honk the horn to scare the zombie.</label>
+    </div>
+
+    <!-- Вопрос 9 -->
+    <div class="question">
+        <p>9. The engine starts! But a huge zombie is standing right in front of your car. What is the best strategy?</p>
+        <label><input type="radio" name="q9" value="A"> A) Press the gas and hit it at full speed.</label>
+        <label><input type="radio" name="q9" value="B"> B) Swerve around it to protect the car's engine and windshield.</label>
+        <label><input type="radio" name="q9" value="C"> C) Honk the horn and wait for it to move.</label>
+    </div>
+
+    <!-- Вопрос 10 -->
+    <div class="question">
+        <p>10. You survived the night! What is the most important horror movie rule you learned tonight?</p>
+        <label><input type="radio" name="q10" value="A"> A) Always keep a bicycle in your car trunk.</label>
+        <label><input type="radio" name="q10" value="B"> B) Never enter a creepy abandoned house, even if you need help.</label>
+        <label><input type="radio" name="q10" value="C"> C) You should always answer unknown phone calls.</label>
+    </div>
+
+    <button onclick="submitQuiz()">Find out your fate</button>
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
